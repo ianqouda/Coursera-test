@@ -3,6 +3,12 @@
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 4px;
+  }
+}
+
 .navbar {
   background-color: #00008f;
   border-radius: 0;
