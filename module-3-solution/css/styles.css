@@ -9,7 +9,11 @@
   }
 }
 
+<<<<<<< HEAD
 .navbar {
+=======
+#header-nav.navbar {
+>>>>>>> 87a0ed7def28d36306c05286e65ce2ea1bb8c1e3
   background-color: #00008f;
   border-radius: 0;
 }
