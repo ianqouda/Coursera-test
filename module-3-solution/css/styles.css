@@ -5,6 +5,7 @@
 
 .navbar {
   background-color: #00008f;
+  border-radius: 0;
 }
 
 .navbar-brand h1 { 
