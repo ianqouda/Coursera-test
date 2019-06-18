@@ -3,7 +3,7 @@
   font-weight: bold;
 }
 
-.navbar {
+#header-nav.navbar {
   background-color: #00008f;
   border-radius: 0;
 }
