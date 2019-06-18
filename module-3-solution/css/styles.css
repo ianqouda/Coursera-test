@@ -1,77 +1,74 @@
 * {
-  font-family: Helvetica
+  font-family: serif;
+  font-weight: bold;
 }
 
-#nav-list {
-  margin-top: 10px;
+.navbar {
+  background-color: #00008f;
 }
 
-#nav-list li {
-  color: #951C49;
-  text-align: center;
-}
-
-#nav-list li:hover {
-  background: #E7E7E7;
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  color: #000;
+.navbar-brand h1 { 
+  font-family: serif;
   font-size: 1.5em;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  color: #fff;
 }
 
-#chicken-col, #beef-col, #sushi-col {
-  padding: 10px;
+.navbar .navbar-toggle {
+  border: none;
+  border-radius: 0;
 }
 
-.meal-box {
-  background-color: #d8d4d4;
-  border: 3px solid black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px gray;
-  margin-bottom: 
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
 }
 
-.meal-title {
-  font-size: 125%;
-  float: right;
-  width: 33.33%;
-  text-align: center;
-  padding: 5px;
-  border-left: 3px solid black;
-  border-bottom: 3px solid black;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
+.navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
+  background-color: #00008f;
+}
+
+.navbar #collapsable-nav li {
+  font-size: 1.2em;
+  color: #fff;
   text-transform: capitalize;
 }
 
-#chicken {
-  background-color: #ffbf8b;
+.navbar #collapsable-nav li:hover, .navbar #collapsable-nav li:focus {
+  color: #00008f;
+  background-color: #fff;
 }
 
-#beef {
-  background-color: #ff5c50;
+#main-content h2 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  text-transform: capitalize;
+  color: #00008f;
 }
 
-#sushi {
-  background-color: #ffbfdd;
+#main-content .long-section {
+  margin-top: 20px;
+  height: 1000px;
+  background-color: #00008f;
+  padding: 5px 10px 15px 10px;
+  color: #fff;
 }
 
-.meal-description {
-  clear: right;
-  padding: 10px;
-}
-
-
-#collapsable-nav a { /* Collapsed nav menu text */
-font-size: 1.2em;
-}
-
-#collapsable-nav a span { /* Collapsed nav menu glyph */
-font-size: 1em;
-margin-right: 5px;
+#main-content .long-section .meal-title {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  background-color: #ff1721;
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-top: 0;
 }
