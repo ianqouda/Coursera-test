@@ -1,0 +1,95 @@
+* {
+  font-family: serif;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 4px;
+  }
+}
+
+#header-nav.navbar {
+  background-color: #00008f;
+  border-radius: 0;
+}
+
+.navbar-brand h1 { 
+  font-family: serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  color: #fff;
+}
+
+.navbar .navbar-toggle {
+  border: none;
+  border-radius: 0;
+}
+
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
+  background-color: #00008f;
+}
+
+.navbar #collapsable-nav li a {
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.navbar #collapsable-nav li a:hover, .navbar #collapsable-nav li a:focus {
+  color: #00008f;
+  background-color: #fff;
+}
+
+#main-content h2 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  text-transform: capitalize;
+  color: #00008f;
+}
+
+#main-content section {
+  margin-top: 20px;
+  color: #fff;
+  position: relative;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#main-content section h3 {
+  background-color: #ff1721;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.5em;
+  margin-right: -10px;
+  margin-left: -10px;
+  font-weight: bold;
+}
+
+#main-content section p a {
+  color: #ff1721;
+}
+
+#main-content section p a:hover {
+  color: #fff;
+}
+
+#main-content .menu-box {
+  background-color: #00008f;
+  padding: 5px 10px 15px 10px;
+  height: 400px;
+}
